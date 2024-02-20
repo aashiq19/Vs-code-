@@ -52,5 +52,58 @@
 
 		],
 		"description": "boiler plate code with Q case"
-	}
+	},
+	"boiler cpp": {
+		"prefix": "cpp",
+			"body": [
+				"#include <bits/stdc++.h>",
+
+				"using namespace std;",
+
+				"#define ll long long int",
+				"#define F first",
+				"#define S second",
+				"#define pb push_back",
+				"#define si set<int>",
+				"#define vi vector<int>",
+				"#define pii pair<int, int>",
+				"#define vpi vector<pii>",
+				"#define vpp vector<pair<int, pii>>",
+				"#define mii map<int, int>",
+				"#define mpi map<pii, int>",
+				"#define spi set<pii>",
+				"#define endl \"\\n\"",
+				"#define sz(x) ((int)x.size())",
+				"#define all(p) p.begin(), p.end()",
+				"#define double long double",
+				"#define que_max priority_queue<int>",
+				"#define que_min priority_queue<int, vi, greater<int>>",
+				"#define print(a)          \\",
+				"\tfor (auto x : a)      \\",
+				"\t\tcout << x << \" \"; \\",
+				"\tcout << endl",
+				"#define print1(a)    \\",
+				"\tfor (auto x : a) \\",
+				"\tcout << x.F << \" \" << x.S << endl",
+				"#define print2(a, from, to)         \\",
+				"\tfor (int i = from; i < to; i++) \\",
+				"\t\tcout << a[i] << \" \";        \\",
+				"\tcout << endl",
+
+				"void solve(){",
+				"\t$0\n",
+				"\treturn;"
+				"}\n",
+
+				"int main(){",
+				"\tint t = 1;",
+				"\tcin >> t;",
+				"\twhile (t--)",
+				"\t\tsolve();",
+				"\treturn 0;",
+				"}",
+	
+			],
+			"description": "CP with c++"
+		},
 }
