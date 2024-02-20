@@ -53,7 +53,7 @@
 		],
 		"description": "boiler plate code with Q case"
 	},
-	"boiler cpp": {
+	"CP with c++": {
 		"prefix": "cpp",
 			"body": [
 				"#include <bits/stdc++.h>",
@@ -90,7 +90,7 @@
 				"\t\tcout << a[i] << \" \";        \\",
 				"\tcout << endl",
 
-				"void solve(){",
+				"\nvoid solve(){",
 				"\t$0\n",
 				"\treturn;"
 				"}\n",
