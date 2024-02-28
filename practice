@@ -54,5 +54,14 @@ int main(){
         cout<<endl;
     }
 
+     int n,ans=0;
+    cin>> n;
+    while (n!=0){
+        int d=n%10;
+        ans*=10;
+        ans+=d;
+        n/=10;
+    }
+    cout<<ans;
     return 0;
 }
